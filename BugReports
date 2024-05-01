@@ -1,0 +1,76 @@
+Priority and Severity: P2 - High
+Title: Profile Picture Upload Fails
+Description: When attempting to upload a profile picture from the user settings page, the image does not get uploaded. No error message is displayed to indicate the failure.
+Steps to Reproduce:
+Go to www.website.com/settings/profile.
+Click on the "Change Profile Picture" button.
+Select an image file from your computer.
+Click on the "Upload" button.
+Expected Results:
+The selected image should be uploaded successfully and displayed as the user's profile picture.
+Actual Results:
+The image fails to upload, and no error message is shown.
+Test Data:
+Image file: profile_pic.jpg
+Status: NEW
+
+
+Priority and Severity: P2 - High
+Title: Unable to Reset Password
+Description: When attempting to reset the password using the "Forgot Password" feature, no email is received with instructions for resetting the password.
+Steps to Reproduce:
+Go to www.website.com/login.
+Click on the "Forgot Password" link.
+Enter the email address associated with the account.
+Click on the "Reset Password" button.
+Expected Results:
+An email with instructions for resetting the password should be sent to the user's email address.
+Actual Results:
+No email is received, and the password reset process cannot be completed.
+Test Data:
+Email address: example@example.com
+Status: NEW
+
+
+Priority and Severity: P2 - High
+Title: Search Functionality Not Returning Results
+Description: When using the search feature to find repositories by name or description, no search results are returned even for existing repositories that match the search criteria.
+Steps to Reproduce:
+Go to www.website.com/search.
+Enter a repository name or description in the search field.
+Press Enter or click on the search icon.
+Expected Results:
+Relevant repositories matching the search criteria should be displayed in the search results.
+Actual Results:
+No search results are returned, even for repositories that exist and match the search criteria.
+Test Data:
+Search query: test
+Status: NEW
+
+
+Priority and Severity: P2 - High
+Title: Issues Not Displaying Correctly
+Description: When viewing the list of issues in a repository, the issues are not displayed correctly. Some issues are missing, and the order of issues is incorrect.
+Steps to Reproduce:
+Go to a repository's issues section (e.g., www.website.com/repository/issues).
+Expected Results:
+The list of issues should display all issues associated with the repository in the correct order.
+Actual Results:
+Some issues are missing from the list, and the order of issues is not as expected.
+Test Data:
+Repository: example/repository
+Status: NEW
+
+
+Priority and Severity: P2 - High
+Title: Error 404 When Accessing Public Repository
+Description: When trying to access a public repository directly via its URL, an Error 404 page is displayed instead of the repository's content.
+Steps to Reproduce:
+Enter the URL of a public repository directly into the browser's address bar (e.g., www.website.com/username/repository).
+Expected Results:
+The repository's content should be displayed since it is publicly accessible.
+Actual Results:
+An Error 404 page is shown, indicating that the requested page could not be found.
+Test Data:
+Repository URL: www.website.com/username/repository
+Status: NEW
